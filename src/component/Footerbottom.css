@@ -1,0 +1,21 @@
+
+.designer-image {
+    width: 200px;
+    height: 50px;
+}
+.container-1{
+    margin-left: 2%;
+    text-align: left;
+}
+.textcontainer {
+    line-height: 34px;;
+}
+.footerCard {
+    display: flex;
+    gap: 34px;
+    line-height: 34px;
+}
+.flex-cont{
+    display: flex;
+    justify-content: space-around;
+}

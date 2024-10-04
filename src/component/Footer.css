@@ -1,0 +1,12 @@
+.footerContainer{
+    display: flex;
+    background-color: rgb(65, 28, 28);
+    color: white;
+    height: 140px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h1{
+    color: white;
+}

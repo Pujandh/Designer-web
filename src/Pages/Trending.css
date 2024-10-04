@@ -1,0 +1,22 @@
+.header{
+    margin-left: 42%;
+    margin-top: 150px;
+    font-size: 40px
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+.gridContainer{
+    margin-left: 125px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.grid-images {
+    margin: 20px;
+}
+.check{
+    color: rgb(202, 61, 61);
+    margin-right: 8px;
+}

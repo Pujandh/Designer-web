@@ -1,0 +1,61 @@
+.container{
+    justify-content: center;
+    margin-top: 10vh;
+}
+.headerAbout {
+    margin-left: 42%;
+    margin-top: 150px;
+    font-size: 40px;
+    display: flex;
+
+}
+.content {
+    margin-left: 35%;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    border: black;
+    border-style: outset;
+}
+.headerAbout-2 {
+    margin-top: 10px;
+}
+.text-container {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.headerAbout-2{
+    margin: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+.sampleimage {
+    margin-left: 100px;
+    height: 500px;
+    width: 600px;
+}
+.text-container-2{
+    margin-left: 20px;
+    margin-top: auto;
+    position: relative;
+    align-items: center;
+    font-size: larger;
+}
+.header-interior-design{
+    color: rgb(202, 61, 61);
+
+}
+.about{
+    color: rgb(202, 61, 61);
+    margin-right: 8px;
+
+}

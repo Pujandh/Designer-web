@@ -1,0 +1,34 @@
+
+.Card{
+    margin-left: 35%;
+    margin-top: 17%; 
+    position: absolute;
+    z-index: 10;
+    font-size: x-large;
+}
+.discoverButton{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    cursor: pointer;
+    color: rgb(202, 61, 61);
+}
+.discoverButton:hover{
+    background-color: rgb(202, 61, 61);
+    color: white;
+}
+.interior{
+    color: rgb(202, 61, 61) ;
+}
+.interior-designer{
+    display: flex;
+    padding: 4px;
+}
+.interior{
+    margin-right: 4px;
+}
+.designer{
+    margin-left: 8px;
+}
