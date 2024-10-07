@@ -1,6 +1,9 @@
 import React from 'react'
 import './Trending.css'
 import Topcard from '../component/Topcard'
+import Footer from '../component/Footer'
+import FooterBottom from '../component/FooterCard'
+import Footerbottom from '../component/Footerbottom'
 const Trending = () => {
   return (
     <div>
@@ -15,7 +18,10 @@ const Trending = () => {
       <img src='../../images/specificinterior.jpg' className='grid-image'></img>
       <img src='../../images/cozydark.jpeg' className='grid-image'></img>
       </div>
+      <Footer/>
+      <Footerbottom/>
     </div>
+    
   )
 }
 

@@ -4,7 +4,8 @@ import image from '../../images/exploreitem.jpg'
 import image1 from '../../images/explore-item-02.jpg'
 import image2 from '../../images/explore-item-03.jpg'
 import Topcard from '../component/Topcard'
-
+import Footer from '../component/Footer'
+import Footerbottom from '../component/Footerbottom'
 const Explorework = () => {
   return (
     <div>
@@ -29,7 +30,19 @@ const Explorework = () => {
       <div className='image-container'>
         <img src = {image1} className='explore-image-2'></img>
         <img src = {image2} className='explore-image-3'></img>
+      </div><div className='text-wrapper'>
+        <h2 className='text-header'>Incredible work</h2>
+        <p className='content-4'>
+          ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+           ab illo inventore veritatis et quasi architecto toril
+           beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+            magni dolores eos qui ratione voluptatem sequida nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.</p>
+            
+
       </div>
+      <Footer/>
+      <Footerbottom/>
       
     </div>
   )

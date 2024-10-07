@@ -8,6 +8,7 @@ import Contactus from './Pages/Contactus';
 import Trending from './Pages/Trending'; 
 import Explorework from './Pages/Explorework';
 import Navbar from './component/navbar';
+import ScrollToTop from './component/ScrollToTop';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
     
  <>  
   <BrowserRouter>
+  <ScrollToTop/>
   <Navbar/>
   <Routes>
     

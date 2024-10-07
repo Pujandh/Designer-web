@@ -1,0 +1,11 @@
+.redbox{
+    background-color:rgb(208, 84, 84); 
+    color: white;
+    width: 300px;
+    margin: 20px;
+    padding: 40px;
+    font-size: x-large;
+    border-radius: 10px;
+    align-self:center;
+    text-align: center;
+}

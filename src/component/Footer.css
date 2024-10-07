@@ -5,8 +5,9 @@
     height: 140px;
     justify-content: space-around;
     align-items: center;
+    min-width: 100%;
 
 }
-h1{
+.footertext{
     color: white;
 }

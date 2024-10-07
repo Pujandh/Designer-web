@@ -1,43 +1,31 @@
 import React from 'react'
-import Navbar from './navbar'
-import Card from './Card'
 import './Homepage.css'
-import { Fade } from 'react-slideshow-image'
-import 'react-slideshow-image/dist/styles.css'
-import Searchbox from './searchbox'
-
+import Card from './Card'
+import Footerbottom from './Footerbottom'
+import image from '../../images/chair.jpg'
+import Searchsection from './Searchsection'
+import InteriorDesignCard from './InteriorDesignCard'
 
 
 const Homepage = () => {
-  const fadeImages = [
-    {
-      url: '../../images/cozybedroom.png',
-    },
-    {
-      url: '../../images/dark.jpg',
-    },
-    {
-      url : "../../images/cozybedroom.png"
-    }
-  ];
-  return (<div>
-    <div className='homePage'>
-    <Navbar/>
-        <Card/>
-        <Searchbox/>  
-        <Fade>
-        {fadeImages.map((fadeImage, index) => (
-          <div key={index}>
-            <img style={{ width: '100%',height : '100vh' }} src={fadeImage.url} />
-            <h2>{fadeImage.caption}</h2>
-          </div>
-        ))}
-       
-      </Fade>
-      
-
-      
-       </div></div>
+  return (
+    <div>
+    <div className='homepage'>
+      <Card/>
+    </div>
+    <Searchsection/>
+    <div className='interior-container'>
+    <div className='home-image-container'><h2 className='home-headerAbout-2'>EXPLORE SOME OF OUR LATEST<div className='home-interior'>
+      INTERIOR DESIGN WORK </div></h2>
+      <img src={image} className='sampleimage'></img>
+      </div>
+      <div className='home-interior-card'>
+      <InteriorDesignCard/>
+      </div></div>
+     
+    <Footerbottom/>
+   
+    </div>
   )
 }
 

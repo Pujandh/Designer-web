@@ -1,10 +1,15 @@
-
 .Card{
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 17%; 
     position: absolute;
     z-index: 10;
     font-size: x-large;
+}
+.Card h3{
+    color: white;
+}
+.designer{
+    color: white;
 }
 .discoverButton{
     margin-top: 10px;

@@ -1,0 +1,31 @@
+.wrapper{
+    margin-top: 60px;
+}
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.input-wrapper input {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+.input-wrapper button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.newletter-input {
+    padding-right: 300px;
+}

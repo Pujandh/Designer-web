@@ -29,9 +29,22 @@
     margin : 30px;
     line-height: 28px;
 }
-.imagecontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+.content-4 {
+    display: flex;
+    margin : 30px;
+    line-height: 28px;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-container img {
+    width: 500px;
+    height: 500px;
+}
+.text-header{
+    text-align: center;
+    margin: 20px;
+}

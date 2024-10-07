@@ -1,8 +1,9 @@
 import React from 'react'
+import './Aboutuscard.css'
 
 const AboutUsCard = ({icon, desc}) => {
   return (
-    <div>
+    <div className='about-wrap'>
       <p>{icon}</p>
       <p>{desc}</p>
     </div>

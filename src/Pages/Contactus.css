@@ -5,3 +5,17 @@
     color: rgb(202, 61, 61);
     margin-right: 8px;
 }
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-wrap{
+    display: flex;
+    flex-direction: column;
+
+}

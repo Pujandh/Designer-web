@@ -35,5 +35,8 @@
     text-decoration: none;
 }
 .link:hover{
-    color: red;
+    color: orange;
+}
+.active-link{
+    color: orange;
 }

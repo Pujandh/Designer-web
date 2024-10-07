@@ -1,0 +1,11 @@
+.about-wrap {
+    border: solid;
+    padding : 30px;
+    width: 200px;
+    height: 60px;
+    font-size: larger;
+    border-radius: 12px;
+    background-color:rgb(208, 84, 84); 
+    color: white;
+    text-align: center;
+}
