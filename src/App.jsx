@@ -6,7 +6,7 @@ import Aboutus from './Pages/Aboutus';
 import Contactus from './Pages/Contactus';
 import Trending from './Pages/Trending'; 
 import Explorework from './Pages/Explorework';
-import Navbar from './component/navbar';
+import Navbar from './component/Navbar';
 import ScrollToTop from './component/ScrollToTop';
 
 function App() {
