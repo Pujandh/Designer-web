@@ -14,11 +14,12 @@
 .discoverButton{
     margin-top: 10px;
     border-radius: 10px;
-    height: 30px;
-    width: 150px;
+    height: 40px;
+    width: 160px;
     font-size: medium;
     cursor: pointer;
     color: rgb(202, 61, 61);
+    border-style: none;
 }
 .discoverButton:hover{
     background-color: rgb(202, 61, 61);

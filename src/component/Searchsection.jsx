@@ -2,6 +2,7 @@ import React from 'react'
 import Dropdown from './Dropdown'
 import Searchbox from './searchbox'
 import './Searchsection.css'
+import { ColorScheme } from '@vis.gl/react-google-maps'
 
 const Searchsection = () => {
     const categoryOptions = ['Interior Design' , 'Exterior Design' , 'New Ideas' , 'Trendy Design']
@@ -12,9 +13,9 @@ const Searchsection = () => {
         <div className='search-container'>
       <div className="dropdowns-container">
         <Searchbox/>
-        <Dropdown label="Category" options={categoryOptions} />
-        <Dropdown label="Plan" options={planOptions} />
-        <Dropdown label="Price" options={priceOptions} />
+        <Dropdown className="dropdown-home"  label="Category" options={categoryOptions} />
+        <Dropdown className='dropdown-home' label="Plan" options={planOptions} />
+        <Dropdown className='dropdown-home' label="Price" options={priceOptions} />
       </div>
       <button className='search-btn'>Search Now</button>
       </div>

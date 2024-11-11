@@ -1,42 +1,79 @@
-*{
+/* Reset margins and padding for all elements */
+* {
     margin: 0;
     padding: 0;
-
-}
-.navBar{
+  }
+  
+  /* Navbar container */
+  .navBar {
     display: flex;
-    position: fixed;
+    position: sticky;
     top: 0;
-    background: transparent;
     background-color: rgb(65, 28, 28);
     z-index: 20;
     width: 100%;
-    
-}
-.navigation{
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Navigation links */
+  .navigation {
     display: flex;
     list-style: none;
-    margin: 10px;
-    font-size: larger;
     margin-left: auto;
-    
-    border-radius: 10px;
-}
-.navigation li{
+    font-size: larger;
+    gap: 20px;
+  }
+  
+  /* Individual navigation list items */
+  .navigation li {
     padding: 10px;
-    
-}
-.topic{
+  }
+  
+  /* Topic (logo or title) styling */
+  .topic {
     width: 90px;
     height: 20px;
-}
-.link {
-    color:white;
+  }
+  
+  /* Link styling */
+  .link {
+    color: white;
     text-decoration: none;
-}
-.link:hover{
+  }
+  
+  .link:hover {
     color: orange;
-}
-.active-link{
+  }
+  
+  /* Active link styling */
+  .active-link {
     color: orange;
-}
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    /* Stack the navigation links vertically on smaller screens */
+    .navBar {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    /* Center the navigation links */
+    .navigation {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    /* Reduce font size for smaller screens */
+    .navigation li {
+      font-size: medium;
+    }
+  
+    /* Adjust topic (logo) width for smaller screens */
+    .topic {
+      width: 60px;
+    }
+  }
+  

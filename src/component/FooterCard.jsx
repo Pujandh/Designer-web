@@ -3,7 +3,7 @@ import './FooterCard.css'
 
 const FooterCard = ({header,first,second,third}) => {
   return (
-    <div className='footercard'>
+    <div className='footerCard-component'>
       <h2>{header}</h2>
       <p>{first}</p>
       <p>{second}</p>

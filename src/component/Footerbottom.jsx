@@ -18,7 +18,7 @@ const Footerbottom = () => {
          Design: Pujan Dhungana</div>
          </div>
          <div className='footerBox'>
-         <div className='footerCard'>
+         <div className='footerCard-1'>
             <FooterCard header='Our Location' first = 'Imadol' second='Lalitpur' third = 'Nepal'/>
             <FooterCard header = 'Customer Care' first = '01-2344556' second='01-321303' third = 'information@company'/>
             <Followcard/>
