@@ -1,6 +1,6 @@
 import React from 'react'
 import Dropdown from './Dropdown'
-import Searchbox from './searchbox'
+import Searchbox from './Searchbox'
 import './Searchsection.css'
 import { ColorScheme } from '@vis.gl/react-google-maps'
 
