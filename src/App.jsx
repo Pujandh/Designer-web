@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css';
 import Homepage from './component/Homepage';
-import Searchbox from './component/searchbox';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Aboutus from './Pages/Aboutus';
 import Contactus from './Pages/Contactus';
