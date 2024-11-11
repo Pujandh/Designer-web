@@ -2,7 +2,6 @@ import React from 'react'
 import './Trending.css'
 import Topcard from '../component/Topcard'
 import Footer from '../component/Footer'
-import FooterBottom from '../component/FooterCard'
 import Footerbottom from '../component/Footerbottom'
 const Trending = () => {
   return (
