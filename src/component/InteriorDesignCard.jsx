@@ -1,5 +1,5 @@
 import React from 'react'
-import InteriorDesign from './InteriorDesign'
+import Interiordesign from './InteriorDesign'
 
 const InteriorDesignCard = () => {
     const CardComponents = [
