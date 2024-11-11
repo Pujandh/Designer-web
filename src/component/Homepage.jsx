@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './Homepage.css';
-import Card from './Card';
+import Card from './card';
 import Footerbottom from './Footerbottom';
 import image from '../../images/chair.jpg';
 import Searchsection from './Searchsection';
